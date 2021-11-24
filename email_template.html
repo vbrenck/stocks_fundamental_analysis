@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <style>
+
+body {
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+table {
+  background: white;
+  white-space: nowrap;
+  border-radius:5px;
+  border-collapse: collapse;
+  padding: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  white-space: normal;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:20px;
+  font-weight: 300;
+  padding:10px;
+  text-align:left;
+  vertical-align:middle;
+}
+
+.tdividendos th {
+    background:#146314;
+}
+
+.tpvpluc th {
+    background:#0e3585;
+}
+
+.tpacl th {
+    background:#355699;
+}
+
+.tliqbxendiv th {
+    background:#177e70;
+}
+
+tr:nth-child(odd) td {
+  background:rgb(235, 235, 235);
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:16px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  border-right: 1px solid #C1C3D1;
+  border-left: 1px solid #C1C3D1;
+}
+
+ul {
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+}
+
+a, a:visited, a:link {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.criterios, .fonte, .conceitos {
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div class="email-background">
+            <div class="pre-header">
+                <h4>
+                    Análise Fundamentalista para $XX/XX/XXXX$
+                </h4>
+            </div>
+            <div class="email-container">
+                <div class="dividendos">
+                    <h5>DIVIDENDOS ¹</h5>
+                    $dividendos$
+                </div>
+                <div class="preco">
+                    <h5>PREÇO ²</h5>
+                    <h6>P/VP - Lucrativas</h6>
+                    $pvpluc$
+                    <h6>P/Ativo Circulante Líquido</h6>
+                    $pacl$
+                </div>
+                <div class="liquidez">
+                    <h5>LIQUIDEZ E BAIXO ENDIVIDAMENTO ³</h5>
+                    $liqbxendiv$
+                </div>
+                <br>
+              <p class="criterios">Critérios utilizados: <br>
+                ¹ DY > 5% e Cresc.Rec.5a > 0 e Liq.Corr > 1 e Margens EBIT e Líquida > 0; <br>
+                ² P/VP Lucrativas - P/VP entre 0.7 e 1 e Cresc.Rec.5a > 0 e Margens EBIT e Líquida > 0 e (ROIC > 10% ou ROE > 15%); <br>
+                ² P/Ativo Circulante Líquido - P/Ativo Circulante Líquido entre 0.5 e 1.1 e Cresc.Rec.5a > 0 e Liq.Corr > 1 e (ROIC > 5% ou ROE > 5%); <br>
+                ³ Liq.Corr > 1 e Div.Bruta/PL entre 0 e 1 e P/Ativo Circulante Líquido > 0 e Cresc.Rec.5a > 0 e Margens EBIT e Líquida > 0 e (ROIC > 10% ou ROE > 15%); <br>
+                Liquidez Últ. 2 Meses > 0 e entre as 70% mais negociadas.</p>
+                <p class="conceitos">
+                Conceitos dos Indicadores:
+                <ul>
+                    <li>P/L - Preço da ação dividido pelo lucro por ação. O P/L é o número de anos que se levaria para reaver o capital aplicado na compra de uma ação, através do recebimento do lucro gerado pela empresa, considerando que esses lucros permaneçam constantes.</li>
+                    <li>P/VP - Preço da ação dividido pelo Valor Patrimonial por ação. Informa o quanto o mercado está disposto a pagar sobre o Patrimônio Líquido (PL) da empresa.</li>
+                    <li>PSR - Preço da ação dividido pelo Valor Patrimonial por ação. Informa o quanto o mercado está disposto a pagar sobre o Patrimônio Líquido (PL) da empresa.</li>
+                    <li>Div.Yield (DY) - Dividendo pago por ação dividido pelo preço da ação. É o rendimento gerado para o dono da ação pelo pagamento de dividendos.</li>
+                    <li>P/Ativo - Preço da ação dividido pelos Ativos totais por ação.</li>
+                    <li>P/Cap.Giro - Preço da ação dividido pelo Capital de Giro por ação. Capital de Giro é o Ativo Circulante menos o Passivo Circulante.</li>
+                    <li>EBIT - Lucro antes dos impostos e juros - Uma aproximação do lucro operacional da empresa.</li>
+                    <li>EBITDA - Lucro antes dos impostos, juros, depreciação e amortização - Uma aproximação do lucro operacional da empresa, desconsiderando despesas com depreciação e amortização.</li>
+                    <li>P/EBIT - Preço da ação dividido pelo EBIT por ação.</li>
+                    <li>P/Ativ.Circ.Liq. - Preço da ação dividido pelos Ativos Circulantes Líquidos por ação. Ativo Circulante Líquido é obtido subraindo os ativos circulantes pelas dívidas de curto e longo prazo, ou seja, após o pagamento de todas as dívidas, quanto sobraria dos ativos mais líquidos da empresa (caixa, estoque, etc).</li>
+                    <li>EV/EBIT - Enterprise Value (EV ou Valor da Empresa) dividido pelo EBIT. EV é obtido pelo valor total de suas ações a preço de mercado mais o valor de suas dívidas de curto e longo prazo menos as disponibilidades.</li>
+                    <li>EV/EBITDA - Enterprise Value (EV ou Valor da Empresa) dividido pelo EBITDA. EV é obtido pelo valor total de suas ações a preço de mercado mais o valor de suas dívidas de curto e longo prazo menos as disponibilidades.</li>
+                    <li>Marg.EBIT - EBIT dividido pela Receita Líquida. Indica a porcentagem de cada R$1,00 de venda que sobrou após o pagamento dos custos dos produtos/serviços vendidos, das despesas com vendas, gerais e administrativas.</li>
+                    <li>Marg.Líq. - Lucro Líquido dividido pela Receita Líquida.</li>
+                    <li>Liq.Corr. - Ativo Circulante dividido pelo Passivo Circulante. Reflete a capacidade de pagamento da empresa no curto prazo.</li>
+                    <li>ROIC - Retorno sobre o Capital Investido. É calculado dividindo-se o EBIT por (Ativos - Fornecedores - Caixa). Informa o retorno que a empresa consegue sobre o capital total aplicado.</li>
+                    <li>ROE - Retorno sobre o Patrimônio Líquido. Lucro Líquido dividido pelo Patrimônio Líquido.</li>
+                    <li>Liquidez Ult. 2 Meses - Volume médio de negociação da ação nos últimos 2 meses em R$.</li>
+                    <li>Div.Bruta/PL - Dívida Bruta Total (Dívidas + Debêntures) dividido pelo PL.</li>
+                    <li>Cresc.Rec.(5 anos) - Crescimento da Receita Líquida nos últimos 5 anos.</li>
+                </ul>  
+                </p>
+              <p class="fonte">Fonte: <a href="https://www.fundamentus.com.br/resultado.php">FUNDAMENTUS</a></p>
+
+            </div>
+        </div>
+    </body>
+</html>
